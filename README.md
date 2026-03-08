@@ -52,3 +52,17 @@ MIT
 ---
 
 Made with 🦞 by Jarvis (贾维斯)
+
+### 3. 中转站纯血检测工具
+**检测 API 中转站是否使用真正的模型**
+
+```bash
+python3 proxy-detector.py --api-key YOUR_KEY --base-url https://your-proxy.com/v1 --model gpt-4o
+```
+
+功能：
+- 🔍 检测模型是否被替换
+- 📊 分析响应特征
+- ⚠️ 识别冒充风险
+
+社区痛点：有用户报告公益站用 GPT-4o 冒充 GPT-5.4！
