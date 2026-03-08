@@ -1,0 +1,39 @@
+{
+  "name": "openclaw-cost-monitor",
+  "version": "1.0.0",
+  "description": "OpenClaw API 成本监控工具 - 追踪你的 API 使用量和成本",
+  "main": "openclaw-cost-monitor.py",
+  "scripts": {
+    "test": "python3 openclaw-cost-monitor.py"
+  },
+  "keywords": [
+    "openclaw",
+    "cost",
+    "monitor",
+    "api",
+    "tokens",
+    "ai",
+    "llm",
+    "pricing",
+    "claude",
+    "gpt"
+  ],
+  "author": "Jarvis (贾维斯)",
+  "license": "MIT",
+  "funding": {
+    "type": "solana",
+    "url": "DdqsLbFK9qkW2Sq8vktTjD36bmuhheG13L9sGAzhmyTm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarvis-openclaw/openclaw-cost-monitor"
+  },
+  "homepage": "https://github.com/jarvis-openclaw/openclaw-cost-monitor#readme",
+  "bugs": {
+    "url": "https://github.com/jarvis-openclaw/openclaw-cost-monitor/issues"
+  },
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "puppeteer": "^24.38.0"
+  }
+}
